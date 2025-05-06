@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function sum(a, b, ...arr) {
+            let he = a + b;
+            // console.log(arr);
+            for (let t of arr) {
+                he += t;
+            }
+            return he;
+        }
+        const sumWith = sum.bind(null, 5, 5);//这里直接把sumWith函数a, b都绑定为5，后面sumwWith这俩个参数不能更改了
+        console.log(sumWith(1, 1, 1));  // 13
+
+
+    </script>
+</body>
+
+</html>

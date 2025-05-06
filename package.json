@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "author": "SenY <ys0514@yeah.net>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/pro-components": "^2.4.4",
+    "@types/react-beautiful-dnd": "^13.1.5",
+    "@umijs/max": "^4.0.83",
+    "antd": "^5.10.2",
+    "axios": "^1.5.1",
+    "dayjs": "^1.11.10",
+    "dexie": "^3.2.4",
+    "dexie-react-hooks": "^1.1.7",
+    "dom-to-image": "^2.6.0",
+    "fetch-jsonp": "^1.3.0",
+    "framer-motion": "^10.16.4",
+    "highlight.js": "^11.9.0",
+    "lodash": "^4.17.21",
+    "markdown-it": "^13.0.2",
+    "qs": "^6.11.2",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-markdown-editor-lite": "^1.3.4",
+    "styled-components": "^6.0.8",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/markdown-it": "^13.0.2",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
