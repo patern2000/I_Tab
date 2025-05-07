@@ -23,10 +23,6 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 🌟 You are all set!
 
-## 👓 Preview
-
-![image](./assets/preview.jpg)
-
 ## 📞 Contacts
 
 - Email： pengzeng2022@163.com
